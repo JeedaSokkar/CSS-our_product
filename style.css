@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+.Title{
+    padding-left: 50px;
+    padding-top: 30px;
+    font-family: "Anek Devanagari", sans-serif;
+}
+.under{
+    text-decoration: underline rgb(51, 141, 177); 
+}
+.p {
+    border: 2px solid silver;
+    border-radius: 8px;
+    margin: 7px 7px 7px 7px;
+    padding: 4px;
+    height: fit-content;
+    width:20%;
+    min-width: 225px;
+    max-width: 450px;
+}
+
+.price {
+    color: green;
+}
+
+.price1 {
+    color: red;
+    text-decoration: line-through;
+}
+
+.Products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin: 40px;
+   
+}
+
+
+.m{
+ width: 100%;
+ border-radius: 8px;
+}
+
+
+.but1 {
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    width:88%;
+    text-align: center;
+
+}
+
+.but2 {
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+
+    text-align: center;
+   
+}
